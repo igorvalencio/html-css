@@ -1,0 +1,35 @@
+@charset "UTF-8"
+/*
+em html é id = em CSS é #
+em HTMLé class = em CSS é .
+*/
+
+
+body{
+    background-color: magenta;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    color: mediumspringgreen;
+}
+h1#principal {
+    text-align: center;
+    background-color: orangered;
+}
+h2{
+    color: navy;
+}
+p{
+    color: orangered;
+}
+
+.intermediario{
+    color: magenta;
+}
+.basico{
+    color: seagreen;
+     font-weight: border;
+}
+.avancado{
+color: tomato;
+}
