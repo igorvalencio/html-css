@@ -8,16 +8,24 @@
     <style>
         body{
             height: 100vh;
-            background-color: aqua;
+           /* background-color: aqua;
             background-image: url('imagens/wallpaper002.jpg');
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
+            background-attachment: fixed; */
+        /*
+        shorthand - background
+        color > image > position > repeat > [size]
+        > attatchment
+        */
+        background-image: url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+        background-size: cover;
 
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin:auto;
             border: 1px solid darkblue;
